@@ -4754,3 +4754,261 @@ java.lang.NullPointerException
 2018-04-15 22:09:59 INFO  ApacheHttpClient.getWebResourceAsStream(431) - responseCode = 200
 2018-04-15 22:09:59 INFO  ApacheHttpClient.getFilteredTasks(318) - responseCode = 200
 2018-04-15 22:10:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:11:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:12:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:13:49 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:13:49 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:13:49 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:13:49 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:13:49 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:13:49 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:13:49 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:13:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:14:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:14:52 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:14:52 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:14:52 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:14:52 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:14:52 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:14:52 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:14:52 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:15:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:16:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:17:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:18:26 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:18:26 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:18:26 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:18:26 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:18:26 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:18:26 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:18:26 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:18:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:19:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:20:29 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:20:29 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:20:29 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:20:29 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:20:29 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:20:29 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:20:29 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:20:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:21:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:22:51 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:22:51 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:22:51 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:22:51 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:22:51 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:22:51 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:22:51 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:22:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
+2018-04-15 22:23:08 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:23:08 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:23:08 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:23:08 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:23:08 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:23:08 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:23:08 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:23:24 ERROR GitFetcher.error(134) - Tracked info is null for branch refs/heads/master
+ Repository: D:\IntelliJ IDEA 2017.2.5\project (2)\JavaRushTasks\3.JavaMultithreading\src\com\javarush\task\task23\task2301
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.update.GitFetcher.getFetchParams(GitFetcher.java:151)
+	at git4idea.update.GitFetcher.fetchCurrentRemote(GitFetcher.java:109)
+	at git4idea.update.GitFetcher.fetch(GitFetcher.java:82)
+	at git4idea.update.GitFetcher.fetchRootsAndNotify(GitFetcher.java:263)
+	at git4idea.update.GitUpdateProcess.fetchAndNotify(GitUpdateProcess.java:312)
+	at git4idea.update.GitUpdateProcess.update(GitUpdateProcess.java:134)
+	at git4idea.push.GitPushOperation.update(GitPushOperation.java:419)
+	at git4idea.push.GitPushOperation.execute(GitPushOperation.java:178)
+	at git4idea.push.GitPusher.push(GitPusher.java:62)
+	at com.intellij.dvcs.push.PushController.a(PushController.java:512)
+	at com.intellij.dvcs.push.PushController.access$600(PushController.java:63)
+	at com.intellij.dvcs.push.PushController$5.run(PushController.java:499)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-15 22:23:24 ERROR GitFetcher.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-04-15 22:23:24 ERROR GitFetcher.b(149) - JDK: 1.8.0_152-release
+2018-04-15 22:23:24 ERROR GitFetcher.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-04-15 22:23:24 ERROR GitFetcher.b(151) - Vendor: JetBrains s.r.o
+2018-04-15 22:23:24 ERROR GitFetcher.b(152) - OS: Windows 10
+2018-04-15 22:23:24 ERROR GitFetcher.b(158) - Last Action: Vcs.Push
+2018-04-15 22:23:51 INFO  ApacheHttpClient.sendEvent(464) - responseCode = 200
