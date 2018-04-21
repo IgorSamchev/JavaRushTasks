@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2301" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/resp1" vcs="Git" />
-    <mapping directory="D:/Resp" vcs="Git" />
+    <mapping directory="D:/repositoty" vcs="Git" />
   </component>
 </project>
