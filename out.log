@@ -9549,3 +9549,81 @@ java.lang.AssertionError: Already disposed: Project (Disposed) JavaRushTasks
 2018-06-09 23:41:45 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
 2018-06-09 23:41:45 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
 2018-06-09 23:41:45 ERROR StubTreeLoaderImpl.b(158) - Last Action: ChangesView.Refresh
+2018-06-09 23:43:41 ERROR GitLogProvider.error(134) - Repository not found for root file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:132)
+	at git4idea.log.GitLogProvider.isRepositoryReady(GitLogProvider.java:573)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:97)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:131)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:387)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.a(VcsLogRefresherImpl.java:137)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.access$1400(VcsLogRefresherImpl.java:43)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.a(VcsLogRefresherImpl.java:286)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.a(VcsLogRefresherImpl.java:245)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.run(VcsLogRefresherImpl.java:219)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:718)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:330)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-09 23:43:41 ERROR GitLogProvider.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-06-09 23:43:41 ERROR GitLogProvider.b(149) - JDK: 1.8.0_152-release
+2018-06-09 23:43:41 ERROR GitLogProvider.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-06-09 23:43:41 ERROR GitLogProvider.b(151) - Vendor: JetBrains s.r.o
+2018-06-09 23:43:41 ERROR GitLogProvider.b(152) - OS: Windows 10
+2018-06-09 23:43:41 ERROR GitLogProvider.b(158) - Last Action: Vcs.Push
+2018-06-09 23:44:24 WARN  JavaRushUtil.isProjectStructureCorrect(344) - Структура проекта невалидная.
+2018-06-09 23:44:40 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:44:40 WARN  JavaRushUtil.isProjectStructureCorrect(344) - Структура проекта невалидная.
+2018-06-09 23:44:48 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/compiler.xml null, doc=DocumentImpl[file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/compiler.xml], docSaved=true, wasIndexedAlready=true, queried at 1528577088588
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(149) - JDK: 1.8.0_152-release
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(158) - Last Action: CheckinProject
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/misc.xml null, doc=DocumentImpl[file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/misc.xml], docSaved=true, wasIndexedAlready=true, queried at 1528577101891
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(149) - JDK: 1.8.0_152-release
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(158) - Last Action: CheckinProject
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/modules.xml null, doc=DocumentImpl[file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/.idea/modules.xml], docSaved=true, wasIndexedAlready=true, queried at 1528577088640
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(149) - JDK: 1.8.0_152-release
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
+2018-06-09 23:45:20 ERROR StubTreeLoaderImpl.b(158) - Last Action: CheckinProject
+2018-06-09 23:47:55 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:47:55 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-09 23:47:55 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-09 23:47:55 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:47:56 INFO  ApacheHttpClient.completed(27) - responseCode = 400
+2018-06-09 23:47:56 WARN  TaskCompleted.run(66) - Задача "Рефакторинг (11)" уже решена
+2018-06-09 23:47:58 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:47:58 INFO  ApacheHttpClient.getFilteredTasks(323) - responseCode = 200
+2018-06-09 23:48:00 INFO  ApacheHttpClient.getTaskTemplateInfo(340) - responseCode = 200
+2018-06-09 23:48:00 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-09 23:48:00 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-09 23:48:01 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:48:01 INFO  ApacheHttpClient.getTaskTemplateInfo(340) - responseCode = 200
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-09 23:48:01 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-09 23:48:01 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-09 23:48:24 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-09 23:48:24 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
