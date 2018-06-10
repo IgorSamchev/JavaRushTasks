@@ -10535,3 +10535,53 @@ java.lang.Throwable
 2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
 2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
 2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(158) - Last Action: ChangesView.AddUnversioned.From.Dialog
+2018-06-10 20:22:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:22:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:23:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:23:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:24:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:24:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:25:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:25:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:26:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:26:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:27:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:27:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:28:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:28:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:29:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:29:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:29:58 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2018-06-10 20:29:58 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-10 20:29:58 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-10 20:29:58 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-10 20:30:07 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2018-06-10 20:30:07 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.18 ----------
+
+2018-06-10 20:30:07 INFO  ApacheHttpClient.createAsyncHttpClient(129) - Выбрано 1 прокси. Тип : DIRECT
+2018-06-10 20:30:07 INFO  ApacheHttpClient.<init>(87) - ApacheHttpClient проинстанциирован успешно.
+2018-06-10 20:30:07 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:07 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:30:07 INFO  ApacheHttpClient.login(225) - Ожидание ответа сервера.
+2018-06-10 20:30:07 INFO  ApacheHttpClient.login(229) - responseCode = 200
+2018-06-10 20:30:07 INFO  ApacheHttpClient.login(260) - JSESSIONID=A2BA1B57AED7D1C9895D74926A1B538E
+2018-06-10 20:30:07 INFO  ApacheHttpClient.refreshUserInfo(288) - responseCode = 200
+2018-06-10 20:30:07 INFO  ApacheHttpClient.refreshUserInfo(294) - Информация о пользователе получена.
+2018-06-10 20:30:08 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2018-06-10 20:30:08 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-06-10 20:30:09 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:09 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:30:09 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:09 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:30:10 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-10 20:30:11 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:11 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:30:12 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:12 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:30:13 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-10 20:30:13 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-10 20:31:08 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:31:08 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:32:08 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:32:08 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
