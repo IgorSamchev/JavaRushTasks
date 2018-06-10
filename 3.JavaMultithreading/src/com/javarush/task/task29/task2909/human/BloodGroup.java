@@ -7,23 +7,23 @@ public class BloodGroup {
         this.code = code;
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public static BloodGroup first(){
+    public static BloodGroup first() {
         return new BloodGroup(1);
     }
 
-    public static BloodGroup second(){
+    public static BloodGroup second() {
         return new BloodGroup(2);
     }
 
-    public static BloodGroup third(){
+    public static BloodGroup third() {
         return new BloodGroup(3);
     }
 
-    public static BloodGroup fourth(){
+    public static BloodGroup fourth() {
         return new BloodGroup(4);
+    }
+
+    public int getCode() {
+        return code;
     }
 }

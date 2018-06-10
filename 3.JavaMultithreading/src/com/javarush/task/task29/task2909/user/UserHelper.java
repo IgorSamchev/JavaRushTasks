@@ -7,17 +7,17 @@ public class UserHelper {
     private User userRoma = new User("Рома", "Виноградов", 30);
 
     public void printUsers() {
-       userAnya.printInfo();
-       userAnya.printAdditionalInfo();
+        userAnya.printInfo();
+        userAnya.printAdditionalInfo();
 
-       userRoma.printInfo();
-       userRoma.printAdditionalInfo();
+        userRoma.printInfo();
+        userRoma.printAdditionalInfo();
     }
 
     public int calculateAverageAge() {
         User userUra = new User("Юра", "Карп", 28);
 
-        return ((userAnya.getAge() + userRoma .getAge() + userUra.getAge())/3);
+        return ((userAnya.getAge() + userRoma.getAge() + userUra.getAge()) / 3);
     }
 
     public int calculateRate(AtomicInteger base, int age, boolean hasWork, boolean hasHouse) {
@@ -28,6 +28,6 @@ public class UserHelper {
     }
 
     public String getBossName(User user) {
-       return user.getBoss();
+        return user.getBoss();
     }
 }
