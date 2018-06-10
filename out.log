@@ -10524,3 +10524,14 @@ java.lang.Throwable
 2018-06-10 20:18:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
 2018-06-10 20:19:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
 2018-06-10 20:19:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:20:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:20:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:21:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:21:31 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/out/production/3.JavaMultithreading/com/javarush/task/task21/task2101/Solution.class null, doc=DocumentImpl[file://D:/IntelliJ IDEA 2017.2.5/JavaRushTasks/out/production/3.JavaMultithreading/com/javarush/task/task21/task2101/Solution.class], docSaved=true, wasIndexedAlready=true, queried at 1528620148795
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(142) - IntelliJ IDEA 2017.2.5  Build #IU-172.4343.14
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(149) - JDK: 1.8.0_152-release
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(150) - VM: OpenJDK 64-Bit Server VM
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(151) - Vendor: JetBrains s.r.o
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(152) - OS: Windows 10
+2018-06-10 20:21:41 ERROR StubTreeLoaderImpl.b(158) - Last Action: ChangesView.AddUnversioned.From.Dialog
