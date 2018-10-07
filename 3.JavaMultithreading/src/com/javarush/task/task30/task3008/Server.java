@@ -1,6 +1,5 @@
 package com.javarush.task.task30.task3008;
 
-import java.io.Console;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -9,10 +8,19 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
     private static Map<String, Connection> connectionMap = new ConcurrentHashMap<>();
+    static String port;
 
-    public static void main(String[] args) {
-        ConsoleHelper.writeMessage("Input server port: ");
-        try (ServerSocket serverSocket = new ServerSocket(ConsoleHelper.readInt())) {
+    @SuppressWarnings("InfiniteLoopStatement")
+    public static void main(String[] args) throws IOException {
+        serverStart();
+    }
+
+    @SuppressWarnings("InfiniteLoopStatement")
+    static void serverStart() {
+        //ConsoleHelper.writeMessage("Input server port: ");
+        ServerGUI.setPortGui();
+        ConsoleHelper.writeMessage("Opening port: " + port);
+        try (ServerSocket serverSocket = new ServerSocket(Integer.parseInt(port))) {
             ConsoleHelper.writeMessage("Server started...");
             while (true) {
                 new Handler(serverSocket.accept()).start();
@@ -22,7 +30,8 @@ public class Server {
         }
     }
 
-    public static void sendBroadcastMessage(Message message) {
+
+    static void sendBroadcastMessage(Message message) {
         for (Connection connection : connectionMap.values()) {
             try {
                 connection.send(message);
@@ -37,7 +46,7 @@ public class Server {
     private static class Handler extends Thread {
         private Socket socket;
 
-        public Handler(Socket socket) {
+        Handler(Socket socket) {
             this.socket = socket;
         }
 
@@ -65,8 +74,7 @@ public class Server {
             }
         }
 
-
-
+        @SuppressWarnings("InfiniteLoopStatement")
         private void serverMainLoop(Connection connection, String userName) throws IOException, ClassNotFoundException{
             while (true){
                 Message message = connection.receive();
@@ -78,7 +86,6 @@ public class Server {
 
             }
         }
-
 
         @Override
         public void run() {
@@ -100,6 +107,7 @@ public class Server {
                     connectionMap.remove(userName);
                     sendBroadcastMessage(new Message(MessageType.USER_REMOVED, userName));
                 }
+                assert socket != null;
                 ConsoleHelper.writeMessage("Closed connection to a remote socket address: " + socket.getLocalAddress());
             }
 

@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class Client extends Thread {
-    protected Connection connection;
+    private Connection connection;
     private volatile boolean clientConnected = false;
 
     protected String getServerAddress(){
@@ -38,7 +38,7 @@ public class Client extends Thread {
         return new SocketThread();
     }
 
-    protected void sendTextMessage(String text){
+    void sendTextMessage(String text){
         try {
             connection.send(new Message(MessageType.TEXT, text));
         } catch (IOException e) {
@@ -103,7 +103,7 @@ public class Client extends Thread {
             }
         }
 
-        protected void clientHandshake() throws IOException, ClassNotFoundException{
+        void clientHandshake() throws IOException, ClassNotFoundException{
             Message message;
 
             while (!clientConnected){
