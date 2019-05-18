@@ -6359,3 +6359,106 @@
 2019-05-18 07:05:07 INFO  ApacheHttpClient.testConnection(208) - result = true
 2019-05-18 07:05:08 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
 2019-05-18 07:05:08 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-18 08:45:15 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-18 08:45:15 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-18 08:45:15 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2019-05-18 08:45:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(572) - The session is not set in the property file.
+2019-05-18 08:45:17 INFO  ApacheHttpClient.logout(616) - Waiting for server response.
+2019-05-18 08:45:18 INFO  ApacheHttpClient.login(238) - Waiting for server response.
+2019-05-18 08:45:18 INFO  ApacheHttpClient.login(242) - responseCode = 200
+2019-05-18 08:45:18 INFO  ApacheHttpClient.login(265) - JSESSIONID OK
+2019-05-18 08:45:18 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-18 08:45:18 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-18 08:45:18 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-18 08:45:18 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:45:38 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:45:38 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:45:46 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-05-18 08:46:26 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-18 08:46:26 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-18 08:46:26 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2019-05-18 08:46:28 INFO  ApacheHttpClient.createAsyncHttpClient(135) - 1 proxies selected. Type: DIRECT
+2019-05-18 08:46:28 INFO  ApacheHttpClient.<init>(93) - ApacheHttpClient was successfully instantiated.
+2019-05-18 08:46:29 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-18 08:46:29 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-18 08:46:29 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
+2019-05-18 08:46:29 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-18 08:46:29 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-18 08:46:29 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-18 08:46:29 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:47:03 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-05-18 08:47:04 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-18 08:47:04 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-18 08:47:04 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2019-05-18 08:47:07 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(572) - The session is not set in the property file.
+2019-05-18 08:47:07 INFO  ApacheHttpClient.logout(616) - Waiting for server response.
+2019-05-18 08:47:07 INFO  ApacheHttpClient.login(238) - Waiting for server response.
+2019-05-18 08:47:07 INFO  ApacheHttpClient.login(238) - Waiting for server response.
+2019-05-18 08:47:07 INFO  ApacheHttpClient.login(242) - responseCode = 200
+2019-05-18 08:47:07 INFO  ApacheHttpClient.login(265) - JSESSIONID OK
+2019-05-18 08:47:07 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-18 08:47:07 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-18 08:47:07 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-18 08:47:07 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-05-18 08:47:20 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:47:22 INFO  ApacheHttpClient.getFilteredTasks(324) - responseCode = 200
+2019-05-18 08:48:21 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-05-18 08:49:50 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-18 08:49:50 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-18 08:49:50 INFO  ApacheHttpClient.createAsyncHttpClient(135) - 1 proxies selected. Type: DIRECT
+2019-05-18 08:49:50 INFO  ApacheHttpClient.<init>(93) - ApacheHttpClient was successfully instantiated.
+2019-05-18 08:49:51 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-18 08:49:51 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-18 08:49:51 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
+2019-05-18 08:49:52 INFO  ApacheHttpClient.logout(616) - Waiting for server response.
+2019-05-18 08:49:52 INFO  ApacheHttpClient.logout(616) - Waiting for server response.
+2019-05-18 08:49:54 INFO  ApacheHttpClient.login(238) - Waiting for server response.
+2019-05-18 08:49:54 INFO  ApacheHttpClient.login(242) - responseCode = 200
+2019-05-18 08:49:54 INFO  ApacheHttpClient.login(265) - JSESSIONID OK
+2019-05-18 08:49:54 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-18 08:49:54 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-18 08:49:54 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-18 08:49:54 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-05-18 08:50:22 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:50:23 INFO  ApacheHttpClient.getFilteredTasks(324) - responseCode = 200
+2019-05-18 08:50:55 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-05-18 08:51:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:52:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:53:04 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:53:04 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:53:29 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:53:30 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-18 08:53:30 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-18 08:53:30 INFO  PluginTasksProjectComponent.setAutoscrolls(366) - Autoscrolls successfully set
+2019-05-18 08:53:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(572) - The session is not set in the property file.
+2019-05-18 08:53:31 INFO  ApacheHttpClient.logout(616) - Waiting for server response.
+2019-05-18 08:53:32 INFO  ApacheHttpClient.login(238) - Waiting for server response.
+2019-05-18 08:53:32 INFO  ApacheHttpClient.login(242) - responseCode = 200
+2019-05-18 08:53:32 INFO  ApacheHttpClient.login(265) - JSESSIONID OK
+2019-05-18 08:53:32 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-18 08:53:32 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-18 08:53:32 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-18 08:53:32 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-05-18 08:53:41 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:53:41 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:53:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:54:18 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:54:28 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:54:29 INFO  ApacheHttpClient.getFilteredTasks(324) - responseCode = 200
+2019-05-18 08:54:55 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-05-18 08:54:55 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-05-18 08:54:55 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-05-18 08:55:25 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:55:25 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:55:49 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-18 08:55:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:56:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
+2019-05-18 08:57:54 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
