@@ -14,6 +14,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         Path passwords = downloadFile("https://javarush.ru/testdata/secretPasswords.txt", Paths.get("D:/MyDownloads"));
 
+
         for (String line : Files.readAllLines(passwords)) {
             System.out.println(line);
         }

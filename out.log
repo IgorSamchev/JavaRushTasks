@@ -10267,3 +10267,24 @@
 2019-05-18 09:09:10 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
 2019-05-18 09:09:10 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
 >>>>>>> 3fb6fa3e6fb18dfeeb8b90f7001e2a94767ebce6
+2019-05-20 21:16:20 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2019-05-20 21:16:20 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.30 ----------
+
+2019-05-20 21:16:20 INFO  ApacheHttpClient.createAsyncHttpClient(135) - 1 proxies selected. Type: DIRECT
+2019-05-20 21:16:20 INFO  ApacheHttpClient.<init>(93) - ApacheHttpClient was successfully instantiated.
+2019-05-20 21:16:20 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-20 21:16:20 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-20 21:16:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
+2019-05-20 21:16:24 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
+2019-05-20 21:16:25 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
+2019-05-20 21:16:25 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2019-05-20 21:16:25 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2019-05-20 21:16:29 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-20 21:16:29 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-20 21:16:30 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-20 21:16:30 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-20 21:16:31 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-05-20 21:16:35 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-20 21:16:35 INFO  ApacheHttpClient.testConnection(208) - result = true
+2019-05-20 21:16:37 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
+2019-05-20 21:16:37 INFO  ApacheHttpClient.testConnection(208) - result = true
