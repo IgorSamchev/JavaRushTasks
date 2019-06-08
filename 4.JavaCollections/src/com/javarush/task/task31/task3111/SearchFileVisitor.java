@@ -57,7 +57,7 @@ public class SearchFileVisitor extends SimpleFileVisitor<Path> {
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
         if (!attrs.isRegularFile()) return CONTINUE;
 
-        if (isPartOfNameUsed && file.getFileName().toString().indexOf(this.partOfName) == -1)
+        if (isPartOfNameUsed && !file.getFileName().toString().contains(this.partOfName))
             return CONTINUE;
 
         if (isMinSizeUsed && attrs.size() < minSize)
@@ -66,7 +66,7 @@ public class SearchFileVisitor extends SimpleFileVisitor<Path> {
         if (isMaxSizeUsed && attrs.size() > maxSize)
             return CONTINUE;
 
-        if (isPartOfContentUsed && new String(Files.readAllBytes(file)).indexOf(partOfContent) == -1)
+        if (isPartOfContentUsed && !new String(Files.readAllBytes(file)).contains(partOfContent))
             return CONTINUE;
 
 
