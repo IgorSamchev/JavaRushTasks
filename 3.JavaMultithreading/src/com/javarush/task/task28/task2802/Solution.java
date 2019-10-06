@@ -29,14 +29,28 @@ public class Solution {
 
     private static void emulateThreadFactory() {
         AmigoThreadFactory factory = new AmigoThreadFactory();
-        Runnable r = new Runnable() {
-            @Override
-            public void run() {
-                System.out.println(Thread.currentThread().getName());
-            }
-        };
+        Runnable r = () -> System.out.println(Thread.currentThread().getName());
         factory.newThread(r).start();
         factory.newThread(r).start();
         factory.newThread(r).start();
+    }
+
+    public static class AmigoThreadFactory implements ThreadFactory {
+        AtomicInteger integer = new AtomicInteger(0);
+        AtomicInteger factoryNum = new AtomicInteger(0);
+        static AtomicInteger factoryCount = new AtomicInteger(0);
+
+        public AmigoThreadFactory() {
+            factoryNum.set(factoryCount.incrementAndGet());
+        }
+
+        @Override
+        public Thread newThread(Runnable r) {
+            Thread thread = new Thread(r);
+            thread.setDaemon(false);
+            thread.setPriority(Thread.NORM_PRIORITY);
+            thread.setName(thread.getThreadGroup().getName() + "-pool-" + factoryNum + "-thread-" + integer.incrementAndGet());
+            return thread;
+        }
     }
 }

@@ -60,7 +60,7 @@ public class User {
             this.name = name;
         }
 
-        public String getDisplayedName() {
+        public String getDisplayName() {
             return this.name;
         }
     }

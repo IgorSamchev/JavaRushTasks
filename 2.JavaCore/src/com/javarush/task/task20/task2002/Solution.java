@@ -1,12 +1,8 @@
 package com.javarush.task.task20.task2002;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.io.*;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 /* 
@@ -14,27 +10,24 @@ import java.util.List;
 */
 public class Solution {
     public static void main(String[] args) {
+        //you can find your_file_name.tmp in your TMP directory or fix outputStream/inputStream according to your real file location
+        //вы можете найти your_file_name.tmp в папке TMP или исправьте outputStream/inputStream в соответствии с путем к вашему реальному файлу
         try {
             File your_file_name = File.createTempFile("your_file_name", null);
             OutputStream outputStream = new FileOutputStream(your_file_name);
             InputStream inputStream = new FileInputStream(your_file_name);
+
             JavaRush javaRush = new JavaRush();
             //initialize users field for the javaRush object here - инициализируйте поле users для объекта javaRush тут
-            User user = new User();
-            user.setFirstName("Roman");
-            user.setLastName("Last");
-            user.setBirthDate(new SimpleDateFormat("dd.MM.yyyy").parse("21.03.1991"));
-            user.setCountry(User.Country.RUSSIA);
-            user.setMale(true);
-            javaRush.users.add(user);
             javaRush.save(outputStream);
             outputStream.flush();
             JavaRush loadedObject = new JavaRush();
             loadedObject.load(inputStream);
             //check here that javaRush object equals to loadedObject object - проверьте тут, что javaRush и loadedObject равны
-            System.out.println(javaRush.equals(loadedObject));
+
             outputStream.close();
             inputStream.close();
+
         } catch (IOException e) {
             //e.printStackTrace();
             System.out.println("Oops, something wrong with my file");
@@ -48,48 +41,73 @@ public class Solution {
         public List<User> users = new ArrayList<>();
 
         public void save(OutputStream outputStream) throws Exception {
-            //implement this method - реализуйте этот метод
-            ObjectOutputStream outToFile = new ObjectOutputStream(outputStream);
-            outToFile.write(users.size());
-            for (User usr : users) {
-                String firstName = usr.getFirstName() != null ? usr.getFirstName() : "null";
-                String lastName = usr.getLastName() != null ? usr.getLastName() : "null";
-                Long birthDate = usr.getBirthDate().getTime();
-                String country = usr.getCountry() != null ? usr.getCountry().toString() : "null";
-                Boolean sex = usr.isMale();
-
-                outToFile.writeObject(firstName);
-                outToFile.writeObject(lastName);
-                outToFile.writeLong(birthDate);
-                outToFile.writeObject(country);
-                outToFile.writeBoolean(sex);
-                outToFile.flush();
-                outToFile.close();
+            PrintWriter writer = new PrintWriter(outputStream);
+            for (User us : users) {
+                writer.println(us.getFirstName());
+                writer.println(us.getLastName());
+                writer.println(us.getBirthDate().getTime());
+                writer.println(us.isMale());
+                writer.println(us.getCountry());//implement this method - реализуйте этот метод
             }
+            writer.close();
+            outputStream.flush();
+
         }
 
         public void load(InputStream inputStream) throws Exception {
-            //implement this method - реализуйте этот метод
-            ObjectInputStream in = new ObjectInputStream(inputStream);
 
-            int usersCount = in.readInt();
-            for (int i = 0; i < usersCount; i++) {
-                String firstName = (String) in.readObject();
-                String lastName = (String) in.readObject();
-                long birthDate = in.readLong();
-                String country = (String) in.readObject();
-                Boolean sex = in.readBoolean();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            // int i=0;
+            String line;
+            while ((line = reader.readLine()) != null) {
+//firstName
+                String firstName = line;
 
-                User usr = new User();
-                usr.setFirstName(firstName);
-                usr.setLastName(lastName);
-                usr.setBirthDate(new Date(birthDate));
-                usr.setCountry(User.Country.valueOf(country));
-                usr.setMale(sex);
+//lastName
+                String lastName = reader.readLine();
 
-                users.add(usr);
+//Date
+                String date = reader.readLine();
+                Long longdate = Long.parseLong(date);
+                Date BirthDate = new Date(longdate);
 
+//Sex
+                String sex = reader.readLine();
+                boolean isTrue = true;
+                if (sex.equals("true"))
+                    isTrue = true;
+                if (sex.equals("false"))
+                    isTrue = false;
+
+//Country
+                String country = reader.readLine();
+                User.Country enumCountry = null;
+                switch (country) {
+                    case "UKRAINE":
+                        enumCountry = User.Country.UKRAINE;
+                        break;
+                    case "RUSSIA":
+                        enumCountry = User.Country.RUSSIA;
+                        break;
+                    case "OTHER":
+                        enumCountry = User.Country.OTHER;
+                        break;
+                }
+
+//Create new User
+                User user = new User();
+
+//Put data to a new User
+                user.setFirstName(firstName);
+                user.setLastName(lastName);//implement this method - реализуйте этот метод
+                user.setBirthDate(BirthDate);
+                user.setMale(isTrue);
+                user.setCountry(enumCountry);
+
+//add user to users list
+                users.add(user);
             }
+            reader.close();
         }
 
         @Override

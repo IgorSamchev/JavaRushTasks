@@ -12,7 +12,7 @@ public class Solution {
     public static void main(String[] args) {
         //исправьте outputStream/inputStream в соответствии с путем к вашему реальному файлу
         try {
-            File your_file_name = File.createTempFile("d:/test.txt", null);
+            File your_file_name = new File("D:\\1.txt");
             OutputStream outputStream = new FileOutputStream(your_file_name);
             InputStream inputStream = new FileInputStream(your_file_name);
 
@@ -24,9 +24,7 @@ public class Solution {
             somePerson.load(inputStream);
             inputStream.close();
             //check here that ivanov equals to somePerson - проверьте тут, что ivanov и somePerson равны
-            if (ivanov == somePerson) {
-                System.out.println(true);
-            }
+            if (somePerson.hashCode() == ivanov.hashCode());
 
 
         } catch (IOException e) {
@@ -71,26 +69,30 @@ public class Solution {
         }
 
         public void save(OutputStream outputStream) throws Exception {
-            Writer out = new OutputStreamWriter(outputStream, "UTF8");
-            out.write(name + "\r\n");
+            //implement this method - реализуйте этот метод
+            PrintWriter saveWriter = new PrintWriter(outputStream);
+            saveWriter.println(this.name);
 
-            for (Asset item : assets) {
-                out.write(item.getName() + "," + item.getPrice() + "\r\n");
-                out.close();
+            if (assets != null) {
+                for (Asset asset : assets) {
+                    saveWriter.println(asset.getName());
+                    saveWriter.println(asset.getPrice());
+                }
             }
+
+            saveWriter.close();
         }
 
         public void load(InputStream inputStream) throws Exception {
-            BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
+            //implement this method - реализуйте этот метод
+            BufferedReader loadReader = new BufferedReader(new InputStreamReader(inputStream));
+            name = loadReader.readLine();
 
-            if (in.ready()) {
-                name = in.readLine();
+            while (loadReader.ready()) {
+                assets.add(new Asset(loadReader.readLine(), Double.parseDouble(loadReader.readLine())));
             }
 
-            while (in.ready()) ;
-            String s = in.readLine();
-            String[] strs = s.split(",");
-            this.assets.add(new Asset(strs[0], Double.parseDouble(strs[1])));
+            loadReader.close();
         }
     }
 }

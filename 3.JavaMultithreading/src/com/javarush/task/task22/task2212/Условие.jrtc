@@ -1,6 +1,4 @@
-taskKey="com.javarush.task.task22.task2212"
-
-Проверка номера телефона
+taskKey="com.javarush.task.task22.task2212"\n\nПроверка номера телефона
 
 Метод checkTelNumber должен проверять, является ли аргумент telNumber валидным номером телефона.
 Критерии валидности:
